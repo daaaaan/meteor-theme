@@ -20,6 +20,18 @@ Package.on_use(function (api) {
   api.add_files(path.join(asset_path, 'css', 'layout.css'), 'client');
   api.add_files(path.join(asset_path, 'css', 'elements.css'), 'client');
   api.add_files(path.join(asset_path, 'css', 'icons.css'), 'client');
+
+    
+//homecss
+    
+  api.add_files(path.join(asset_path, 'css', 'bootstrap-theme.css'), 'client');
+  api.add_files(path.join(asset_path, 'css', 'carousel.css'), 'client');
+  api.add_files(path.join(asset_path, 'css', 'magnific-popup.css'), 'client');
+  api.add_files(path.join(asset_path, 'css', 'theme.css'), 'client');
+
+  
+    
+    
   
 //js
     
@@ -47,15 +59,18 @@ api.add_files(path.join(asset_path, 'img', 'logo.png'),"client");
   api.add_files(path.join(asset_path, 'img', 'ico-gallery-edit.png'),"client");
   api.add_files(path.join(asset_path, 'img', 'ico-gallery-trash.png'),"client");
 
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.isotope.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'modernizr.min.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'masonry.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.fitvids.min.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.superslides.min.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.carouFredSel-6.2.1-packed.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.countTo.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.magnific-popup.min.js'), 'client');
-  // api.add_files(path.join(asset_path, 'jshome', 'jquery.mb.YTPlayer.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'cbpAnimatedHeader.min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'classie.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'imagesloaded.pkgd.min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'isotope.min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'jquery.flexslider-min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'jquery.magnific-popup.min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'jquery.nav.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'jquery.scrollTo.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'jquery.mb.YTPlayer.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'modernizr.custom.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'owl.carousel.min.js'), 'client');
+   api.add_files(path.join(asset_path, 'jshome', 'scrollReveal.js'), 'client');
  
   // fonts
   api.add_files(path.join(asset_path, 'font', 'glyphicons-halflings-regular.eot'), 'client');
