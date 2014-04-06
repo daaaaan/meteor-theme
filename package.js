@@ -24,7 +24,6 @@ Package.on_use(function (api) {
     
 //homecss
     
-  api.add_files(path.join(asset_path, 'csshome', 'bootstrap-theme.css'), 'client');
   api.add_files(path.join(asset_path, 'csshome', 'carousel.css'), 'client');
   api.add_files(path.join(asset_path, 'csshome', 'magnific-popup.css'), 'client');
   api.add_files(path.join(asset_path, 'csshome', 'theme.css'), 'client');
